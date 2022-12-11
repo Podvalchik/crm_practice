@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    float: right;
+    width: 83vw;
+    height: 80px;
+    background-color: #4CAF50;
+    font-size: 1.5rem;
+    align-items: center;
+    color: #fff;
+    p {
+        padding-left: 50px;
+    }
+    input {
+        margin: 0 auto;
+        border: none;
+        border-radius: 15px;
+        height: 30px;
+        width: 350px;
+        padding: 15px;
+    }
+    input::-webkit-input-placeholder {
+        text-align: center;
+        }
+        
+        input:-moz-placeholder { /* Firefox 18- */
+        text-align: center;
+        }
+        
+        input::-moz-placeholder { /* Firefox 19+ */
+        text-align: center;
+        }
+        
+        input:-ms-input-placeholder {
+        text-align: center;
+        }   
+}

@@ -1,0 +1,18 @@
+.app-wrapper {
+    display: flex;
+    float: left;
+    width: 100vw;
+    height: 100vh;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.rectangle-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

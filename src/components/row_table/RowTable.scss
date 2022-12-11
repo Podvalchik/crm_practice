@@ -1,0 +1,12 @@
+table {
+  height: 100%;
+  width: 100%; /* Ширина таблицы */
+  background: white; /* Цвет фона таблицы */
+  border-radius: 20px;
+  border-collapse: collapse; /* Убираем двойные линии между ячейками */
+  border: #F1F1F1; /* Прячем рамку вокруг таблицы */
+}
+td, th {
+  padding: 5px; /* Поля вокруг текста */
+  border: 2px solid #F1F1F1; /* Параметры рамки */
+}
